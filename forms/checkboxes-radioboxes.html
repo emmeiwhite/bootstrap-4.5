@@ -69,21 +69,40 @@
 
       <!-- CUSTOM FORM ELEMENTS  -->
       <h2>Custom Inputs ...</h2>
-
-      <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="customCheck1">
-        <label class="custom-control-label" for="customCheck1">This is a custom checkbox</label>
+      <div class="form-group">
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+          <label class="custom-control-label" for="customCheck1">This is a custom checkbox</label>
+        </div>
       </div>
-
 
       <h4>Choose the one::</h4>
-      <div class="custom-control custom-radio">
-        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-        <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+      <div class="form-group">
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+        </div>
       </div>
-      <div class="custom-control custom-radio">
-        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-        <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+
+
+      <!-- Custom File and Range classes -->
+      <h3>Custom File Input</h3>
+      <div class="fere">
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="customFile">
+          <label class="custom-file-label" for="customFile">Choose file</label>
+        </div>
+      </div>
+
+      <!-- Custom Progress Bar / Range -->
+
+      <div class="form-group">
+        <label for="customRange1">Example range</label>
+        <input type="range" class="custom-range" id="customRange1">
       </div>
     </form>
   </div>
